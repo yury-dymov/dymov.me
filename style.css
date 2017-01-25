@@ -4,21 +4,25 @@
 }
 
 body {
+  margin: 0;
   padding: 0;
-   margin: 0;
+}
+
+section {
+  margin: 0;
+  padding: 30px 0;
 }
 
 #home {
+  background-attachment: fixed;  
   background-image: url(images/hello_bg.jpg);
+  background-position: center top;      
   background-repeat: no-repeat;
-  background-color: black;
-  background-attachment: fixed;
-  background-position: center;    
+  background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -o-background-size: 100% auto;
   height: 539px;  
-  background-size: cover;  
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;  
 }
 
 .home-content {
@@ -28,8 +32,8 @@ body {
 }
 
 .home-greeting {
+  color: white;
   font-family: "Museo Sans";
-  color: white;  
   text-align: center;
 }
 
@@ -43,14 +47,110 @@ body {
 }
 
 .photo {  
+  height: 161px;  
+  margin: 0 auto;  
+  overflow: hidden;  
   text-align: center;
-  overflow: hidden;
   width: 139px;
-  height: 161px;
-  margin: 0 auto;
 }
 
 .clip {  
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);  
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+
+h1.header {
+  font-family: "Museo Sans";
+  font-size: 40px;  
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+h1.header::before {
+  content: "{ ";
+}
+
+h1.header::after {
+  content: " }";
+}
+
+.gray {
+  color: #8d93a5;
+}
+
+.gold {
+  color: #ffcc80;
+}
+
+.inline-list {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.inline-list > li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.tech-icons {
+  color: #707070;
+  max-width: 1100px;  
+}
+
+.tech-icons > li {
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 50px;    
+  padding: 55px 20px 40px 20px;
+}
+
+.js-icon {
+  background-image: url(images/js.png);
+  width: 100px;
+}
+
+.node-icon {
+  background-image: url(images/node.png);
+  width: 180px;
+}
+
+.react-icon {
+  background-image: url(images/react.png);
+  width: 140px;
+}
+
+.ios-icon {
+  background-image: url(images/ios.png);
+  width: 220px;  
+}
+
+.ror-icon {
+  background-image: url(images/rails.png);
+  width: 160px;  
+}
+
+.phoenix-icon {
+  background-image: url(images/phoenix.png);
+  width: 120px;  
+}
+
+.android-icon {
+  background-image: url(images/android.png);
+  width: 220px;  
+}
+
+.c-icon {
+  background-image: url(images/clang.png);
+  width: 140px;  
+}
+
+#soft-skills {
+  background-color: #525d7c;
+}
+
+.soft-icons {
+  color: white;
+  margin-bottom: 40px;
+}
+
