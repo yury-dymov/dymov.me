@@ -13,6 +13,15 @@ section {
   padding: 30px 0;
 }
 
+a {
+  color: #626c87;
+}
+
+a:hover {
+  color: #ffcc80;
+  text-decoration: none;
+}
+
 #home {
   background-attachment: fixed;  
   background-image: url(images/hello_bg.jpg);
@@ -59,18 +68,31 @@ section {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-h1.header {
+h1 {  
   font-family: "Museo Sans";
   font-size: 40px;  
-  padding: 30px 0 30px 0;
+}
+
+.header {
+  padding: 30px 0 10px 0;  
+  text-align: center;  
+}
+
+h2 {
+  font-family: "Museo Sans";
+  font-size: 30px;  
+}
+
+.subheader {
+  margin: 0;
   text-align: center;
 }
 
-h1.header::before {
+.header::before {
   content: "{ ";
 }
 
-h1.header::after {
+.header::after {
   content: " }";
 }
 
@@ -80,6 +102,10 @@ h1.header::after {
 
 .gold {
   color: #ffcc80;
+}
+
+.default {
+  color: #626c87;
 }
 
 .inline-list {
@@ -151,6 +177,49 @@ h1.header::after {
 
 .soft-icons {
   color: white;
-  margin-bottom: 40px;
+}
+
+.soft-icons > li {
+  background-position: center top;    
+  background-repeat: no-repeat;
+  height: 60px;
+  padding: 60px 20px 40px 20px;    
+}
+
+.teamlead-icon {
+  background-image: url(images/teamlead.png);
+  width: 140px;    
+}
+
+.architect-icon {
+  background-image: url(images/architect.png);
+  width: 180px;    
+}
+
+.conferences {
+  margin-top: 30px;
+}
+
+.conferences > li {
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin: 0 30px;
+  padding:70px 30px 40px 30px;
+  vertical-align: top;
+}
+
+.teched-icon {
+  background-image: url(images/sapteched.png);
+  width: 240px;      
+}
+
+.heisenbug-icon {
+  background-image: url(images/heisenbug.png);
+  width: 240px;      
+}
+
+.agent-sh-icon {
+  background-image: url(images/agent.png);
+  width: 200px;        
 }
 
