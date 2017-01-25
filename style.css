@@ -10,12 +10,15 @@ body {
 
 #home {
   background-image: url(images/hello_bg.jpg);
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  background-repeat: no-repeat;
   background-color: black;
+  background-attachment: fixed;
+  background-position: center;    
   height: 539px;  
+  background-size: cover;  
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;  
 }
 
 .home-content {
