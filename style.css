@@ -334,3 +334,23 @@ a.social-url {
   color: white;  
 }
 
+.startup-list > li {
+  padding: 30px;
+}
+
+.startup-title {
+  font-size: 22px;
+}
+
+.startup-subtitle {
+  color: #666;
+}
+
+.startup-logo {
+  padding: 10px;
+}
+
+.startup-role {
+  font-style: italic;
+}
+
