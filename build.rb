@@ -36,7 +36,13 @@ def process_file(file)
   current_file.scan(get_regex(file)).each do |m|
     target = m[2]
 
-    next unless File.exists?(target)
+    if !File.exists?(target)
+      unless target =~ /^(http|\/\/|mailto)/
+        p "Warning: #{target} is missing"
+      end
+
+      next
+    end
 
     new_filename = target =~ /\.css$/ ? process_file(target) : process_resource(target)
 
