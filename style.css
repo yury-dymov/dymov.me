@@ -243,9 +243,15 @@ h2 {
 }
 
 
+.article-list {
+  max-width: 900px;
+  margin: 30px auto;
+  list-style: none;
+}
+
 .article-list > li {
-  font-size: 20px;
-  padding: 20px 50px;
+  font-size: 18px;
+  padding: 5px;
 }
 
 @media (max-width:1023px) {
