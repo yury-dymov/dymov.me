@@ -354,3 +354,12 @@ a.social-url {
   font-style: italic;
 }
 
+.open-source-list > li {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.open-source-list {
+  max-width: 990px;
+  padding: 30px 0;
+}
