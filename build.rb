@@ -406,7 +406,7 @@ end
 
 def get_regex(file)  
   if file =~ /\.html?$/
-    /(src|href)\s*=\s*('|")(.*?)('|")/
+    /(src|href|content)\s*=\s*('|")(.*?)('|")/
   elsif file =~ /\.css$/
     /(url)\s*(\()(.*?)(\))/
   end
@@ -417,6 +417,8 @@ def process_file(file)
   current_file.scan(get_regex(file)).each do |m|
     target = m[2]
 
+    target = target[1..-1] if target[0] == '/'
+    
     if !File.exists?(target)
       unless target =~ /^(http|\/\/|mailto)/
         p "Warning: #{target} is missing"
