@@ -70,7 +70,7 @@ a:hover {
 
 h1 {  
   font-family: "Museo Sans";
-  font-size: 40px;  
+  font-size: 36px;  
 }
 
 .header {
@@ -237,6 +237,11 @@ h2 {
   padding-right: 5px;
 }
 
+.startpack-icon::before {
+  content: url(images/startpack.png);
+  padding-right: 5px;  
+}
+
 .codeproject-icon::before {
   content: url(images/codeproject.png);
   padding-right: 5px;  
@@ -312,15 +317,25 @@ a.social-url {
   padding: 0 10px;  
 }
 
-.footer-email > a:hover,
+.footer a:hover,
 .social-url:hover {
   color: #f9f9f9;
 }
 
-.footer-email {
+.footer {
   font-size: 18px;
   margin-bottom: 90px;  
   text-align: center;  
+}
+
+.footer > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer > ul > li {
+  padding: 5px 0;
 }
 
 .award-list {
