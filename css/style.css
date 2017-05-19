@@ -232,6 +232,11 @@ h2 {
   padding-right: 5px;
 }
 
+.tc-icon::before {
+  content: url(/images/tc-icon.png);
+  padding-right: 5px;
+}
+
 .habr-icon::before {
   content: url(/images/habr.png);
   padding-right: 5px;
