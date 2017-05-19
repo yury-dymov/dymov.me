@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Museo Sans";
-	src: url(fonts/MuseoSansLight.ttf);
+	src: url(/fonts/MuseoSansLight.ttf);
 }
 
 body {
@@ -24,7 +24,7 @@ a:hover {
 
 #home {
   background-attachment: fixed;  
-  background-image: url(images/hello_bg.jpg);
+  background-image: url(/images/hello_bg.jpg);
   background-position: center top;      
   background-repeat: no-repeat;
   background-size: 100% 539px;
@@ -136,42 +136,42 @@ h2 {
 }
 
 .js-icon {
-  background-image: url(images/js.png);
+  background-image: url(/images/js.png);
   width: 100px;
 }
 
 .node-icon {
-  background-image: url(images/node.png);
+  background-image: url(/images/node.png);
   width: 180px;
 }
 
 .react-icon {
-  background-image: url(images/react.png);
+  background-image: url(/images/react.png);
   width: 140px;
 }
 
 .ios-icon {
-  background-image: url(images/ios.png);
+  background-image: url(/images/ios.png);
   width: 220px;  
 }
 
 .ror-icon {
-  background-image: url(images/rails.png);
+  background-image: url(/images/rails.png);
   width: 160px;  
 }
 
 .phoenix-icon {
-  background-image: url(images/phoenix.png);
+  background-image: url(/images/phoenix.png);
   width: 120px;  
 }
 
 .android-icon {
-  background-image: url(images/android.png);
+  background-image: url(/images/android.png);
   width: 220px;  
 }
 
 .c-icon {
-  background-image: url(images/clang.png);
+  background-image: url(/images/clang.png);
   width: 140px;  
 }
 
@@ -191,12 +191,12 @@ h2 {
 }
 
 .teamlead-icon {
-  background-image: url(images/teamlead.png);
+  background-image: url(/images/teamlead.png);
   width: 140px;    
 }
 
 .architect-icon {
-  background-image: url(images/architect.png);
+  background-image: url(/images/architect.png);
   width: 180px;    
 }
 
@@ -213,37 +213,37 @@ h2 {
 }
 
 .teched-icon {
-  background-image: url(images/sapteched.png);
+  background-image: url(/images/sapteched.png);
   width: 240px;      
 }
 
 .heisenbug-icon {
-  background-image: url(images/heisenbug.png);
+  background-image: url(/images/heisenbug.png);
   width: 240px;      
 }
 
 .agent-sh-icon {
-  background-image: url(images/agent.png);
+  background-image: url(/images/agent.png);
   width: 200px;        
 }
 
 .sm-icon::before {
-  content: url(images/sm.png);
+  content: url(/images/sm.png);
   padding-right: 5px;
 }
 
 .habr-icon::before {
-  content: url(images/habr.png);
+  content: url(/images/habr.png);
   padding-right: 5px;
 }
 
 .startpack-icon::before {
-  content: url(images/startpack.png);
+  content: url(/images/startpack.png);
   padding-right: 5px;  
 }
 
 .codeproject-icon::before {
-  content: url(images/codeproject.png);
+  content: url(/images/codeproject.png);
   padding-right: 5px;  
 }
 
